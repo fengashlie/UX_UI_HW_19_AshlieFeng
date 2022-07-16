@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 header {
-  background-color: #373738;
+  background-color: #8f1929;
   padding: 15px;
 }
 header ul {
@@ -17,7 +17,7 @@ header p {
   display: inline-block;
 }
 .heroImg {
-  background-color: #EBEBEB;
+  background-color: #e9dedf;
   padding: 100px 15px;
 
 }
@@ -25,7 +25,7 @@ header p {
   max-width: 300px;
   margin: 0 auto;
   padding: 50px;
-  background-color: #FFFFFF;
+  background-color: #eee5e6;
   text-align: center;
 }
 .caseStudies {
@@ -59,13 +59,13 @@ header p {
 }
 button {
   padding: 15px;
-  background-color: #373738;
+  background-color: #8f1929;
   color: white;
   font-size: 15px;
   border-radius: 4px;
 }
 footer {
-  background-color: #373738;
+  background-color: #8f1929;
   padding: 5px;
   color: white;
 }
@@ -77,10 +77,10 @@ footer li {
   display: inline-block;
   padding: 0px 7px;
 }
-@media only screen and (max-width:600) {
-  .flex-container div: column;
-  width: 100%;
-#categoryGrid 
+@media only screen and (max-width:600px) {
+  .flex-container div{ flex-direction: column;
+  width: 100%; }
+  .flex-container {
   margin: 0px 5%;
   display: grid;
   grid-template-rows: 300px 300px 300px;
@@ -88,5 +88,5 @@ footer li {
   grid-template-areas:
   "Project1"
   "Project2"
-  "Project3";
+  "Project3"; }
 }
